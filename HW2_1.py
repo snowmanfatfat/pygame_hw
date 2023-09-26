@@ -29,6 +29,6 @@ def remove_outliers():
             print(f'The outliers: {data_outliers}')
             break
         else:
-            print("Error: the number of removed value must smaller than half number of entered data, please re-enter")
+            print("Error: the number of removed value must smaller than number of entered data, please re-enter")
     
 remove_outliers()
